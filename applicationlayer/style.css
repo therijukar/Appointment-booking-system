@@ -92,4 +92,6 @@
 	display: none;
   }
   
-
+  .password-input-container {
+    position: relative;
+  }
