@@ -21,7 +21,8 @@
 	</div>
 	<div class="input-group">
 		<label>Password</label>
-		<input type="Password" name="password" placeholder="Enter your password" required>
+		<div class="password-input-container">
+		<input type="Password" id="password" name="password" placeholder="Enter your password" required>
     </div>
 		<button type="submit" name="Login" class="btn"> Login</button> 
 		<button id="clear-btn" type="reset">Clear</button>	

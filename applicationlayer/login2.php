@@ -18,7 +18,6 @@
 	<div class="input-groupD">
 		<label>Doctor ID</label>
 		<input type="text" name="doctorID">
-
 	</div>
 	<div class="input-groupD">
 		<label>Password</label>
@@ -26,13 +25,6 @@
 	<div class="input-groupD">
 		<button type="submit" name="Login2" class="btnD"> Login</button>
 	</div>
-
-	
-	
-
-
-
-
 </form>
 
 </body>

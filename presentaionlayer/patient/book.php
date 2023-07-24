@@ -26,30 +26,13 @@
 			<li><a href="donate.php">Donate Organ</a></li>
 			<li><a href="searchdonor.php">Search Donar</a></li>
 			<li><a href="../../applicationlayer/Doctorpatient.php">Logout</a></li>
-			
-
-
-
-	
-			
 
 		</ul>
-		
-
-
-
 	</nav>
-
-
-
 
 </header>
 
 <body>
-
-
-	
-
 	
 
 
