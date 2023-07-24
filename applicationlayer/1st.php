@@ -11,6 +11,7 @@
 </div>
 <form method="post" action="1st.php" enctype="multipart/form-data">
 	<?php include ('../datalayer/errors.php'); ?>
+	<div class="container">
 	<div class="input-group">
 		<label>User ID</label>
 		<input type="text" name="UserID" >
@@ -45,6 +46,7 @@
 	<p>
 		Already a member? <a href="login.php">Sign in</a>
 	</p>
+    </div>
 </form>
 </body>
 </html>
