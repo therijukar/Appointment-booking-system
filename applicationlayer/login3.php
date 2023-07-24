@@ -22,13 +22,9 @@
 	</div>
 
 
-
-
 	<div class="input-groupA">
 		<label>Password</label>
-		<input type="Password" name="adminpassword">
-
-
+		<input type="Password" name="adminpassword" placeholder="Enter Your Password" required>
 
 	<div class="input-groupA">
 		<button type="submit" name="Login3" class="btnA"> Login</button>

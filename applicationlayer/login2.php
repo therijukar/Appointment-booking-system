@@ -20,16 +20,9 @@
 		<input type="text" name="doctorID">
 
 	</div>
-
-
-
-
 	<div class="input-groupD">
 		<label>Password</label>
-		<input type="Password" name="doctorpassword">
-
-
-
+		<input type="Password" name="doctorpassword" placeholder="Enter your Password" required>
 	<div class="input-groupD">
 		<button type="submit" name="Login2" class="btnD"> Login</button>
 	</div>
