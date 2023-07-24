@@ -1,82 +1,108 @@
-*{
-	margin: 0px;
-	padding: 0px;
-
-
-}
-body{
-	font-size: 120%;
-	background: #39ca74;
-
-}
-.header{
-	width: 30%;
-	margin: 50px auto 0px;
-	color: white;
-	background: #39ca74;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+  
+  body {
+	background-color: #f7f7f7;
+	font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+	position: relative;
+	max-width: 400px;
+	margin: 30px auto;
+	padding: 40px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+  }
+  
+  .photo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url('background-image.jpg');
+	background-size: cover;
+	background-position: center;
+	filter: blur(8px);
+	z-index: -1;
+  }
+  
+  h2 {
+	margin-top: 69px;
+	margin-bottom: 25px;
 	text-align: center;
-	border: 1px solid #B0C4DE;
-	border-bottom: none;
-	border-radius: 10px 10px 0px 0px ;
-	padding: 20px;
-}
-form{
-
-	width: 30%;
-	margin:0px auto;
-	padding: 20px;
-	border: 1px solid #B0C4DE;
-	background: white;
-	border-radius: 0px 0px 10px 10px;
-
-}
-
-.input-group{
-	margin: 10px 0px 10px 0px;
-}
-
-.input-group label{
+	color: #333;
+	font-weight: 700;
+  }
+  
+  .input-group {
+	margin-bottom: 20px;
+  }
+  
+  label {
 	display: block;
-	text-align: left;
-	margin: 3px;
-
-}
-
-.input-group input{
-	height: 30px;
-	width: 93%;
-	padding: 5px 10px;
-	font-size: 16px;
-	border-radius: 5px;
-	border:1px solid grey;
-
-}
-
-.btn{
-
+	margin-left: 3px;
+	margin-bottom: 5px;
+	color: #777;
+  }
+  
+  input {
+	width: 100%;
 	padding: 10px;
-	font-size: 15px;
-	color: white;
-	background: #39ca74;
-	border:none;
-	border-radius: 5px;
-
-
-
-
-}
-
-.error{
-
-	width: 92%;
-	margin: 0px auto;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	outline-color: #4CAF50;
+  }
+  
+  button {
+	margin-top: 5px;
+	width: 100%;
 	padding: 10px;
-	border:1px solid #a94442;
-	color: #a94442;
-	background: #f2dede;
-	border-radius: 5px;
-	text-align: left;
-	
-}
-
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 20px;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	cursor: pointer;
+  }
+  
+  button:hover {
+	background-color: #45a049;
+  }
+  
+  #clear-btn {
+	margin-top: 10px;
+	background-color: #df3327;
+  }
+  
+  #clear-btn:hover {
+	background-color: #c72b21;
+  }
+  
+  #sign-up-refer {
+	margin-top: 20px;
+	text-align: center;
+	color: #777;
+  }
+  
+  #sign-up-refer a {
+	color: #1579bd;
+	text-decoration: none;
+  }
+  
+  #sign-up-refer a:hover {
+	text-decoration: underline;
+  }
+  
+  .hidden {
+	display: none;
+  }
+  
 
