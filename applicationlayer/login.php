@@ -23,7 +23,6 @@
 		<label>Password</label>
 		<div class="password-input-container">
 		<input type="password" id="password" name="password">
-        <button type="button" id="togglePassword" class="toggle-button"></button>
     </div>
 		<button type="submit" name="Login" class="btn"> Login</button> 
 		<button id="clear-btn" type="reset">Clear</button>	
@@ -39,7 +38,7 @@
       <button id="logoutBtn">Logout</button>
     </div>
 
-	<!-- Password Show And Hide Button -->
+	<!-- Password Show And Hide Button 
     <script>
     document.getElementById('togglePassword').addEventListener('click', function() {
       const passwordInput = document.getElementById('password');
@@ -50,5 +49,7 @@
       }
     });
   </script>
+   -->
+   
 </body>
 </html>
