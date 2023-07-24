@@ -23,8 +23,7 @@
 		<label>Password</label>
 		<div class="password-input-container">
 		<input type="password" id="password" name="password">
-        <button type="button" id="togglePassword" class="toggle-button" onclick="togglePasswordVisibility()">
-        <i class="fas fa-eye" id="eye-icon"></i>
+        <button type="button" id="togglePassword" class="toggle-button">Show/Hide Password</button>
     </div>
 		<button type="submit" name="Login" class="btn"> Login</button> 
 		<button id="clear-btn" type="reset">Clear</button>	
@@ -42,22 +41,14 @@
 
 	<!-- Password Show And Hide Button -->
     <script>
-
-   function togglePasswordVisibility() {
-  const passwordInput = document.getElementById('password');
-  const eyeIcon = document.getElementById('eye-icon');
-
-  if (passwordInput.type === 'password') {
-    passwordInput.type = 'text';
-    eyeIcon.classList.remove('fa-eye');
-    eyeIcon.classList.add('fa-eye-slash');
-  } else {
-    passwordInput.type = 'password';
-    eyeIcon.classList.remove('fa-eye-slash');
-    eyeIcon.classList.add('fa-eye');
-  }
-}
-
-	</script>
+    document.getElementById('togglePassword').addEventListener('click', function() {
+      const passwordInput = document.getElementById('password');
+      if (passwordInput.type === 'password') {
+        passwordInput.type = 'text';
+      } else {
+        passwordInput.type = 'password';
+      }
+    });
+  </script>
 </body>
 </html>
