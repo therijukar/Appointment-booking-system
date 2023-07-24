@@ -25,10 +25,10 @@
 		<input type="Password" name="password" placeholder="Enter your password" required>
 	<div class="input-group">
 		<button type="submit" name="Login" class="btn"> Login</button>
-	</div>
-	<div> 
+		<div> 
 		<button id="clear-btn" type="reset">Clear</button>
-    </div>	
+        </div>
+	</div>	
 	<div id="sign-up-refer">
 	<p>
 		Not a member? <a href="1st.php">Sign Up </a>
