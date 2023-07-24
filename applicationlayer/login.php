@@ -22,7 +22,7 @@
 	<div class="input-group">
 		<label>Password</label>
 		<div class="password-input-container">
-		<input type="Password" id="password" name="password" onclick="togglePasswordVisibility()" placeholder="Enter your password" required>
+		<input type="Password" id="password" name="password" type="button" id="togglePassword" class="toggle-button" onclick="togglePasswordVisibility()" placeholder="Enter your password" required>
         <i class="fas fa-eye" id="eye-icon"></i>
     </div>
 		<button type="submit" name="Login" class="btn"> Login</button> 
