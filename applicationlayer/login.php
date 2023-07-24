@@ -22,11 +22,9 @@
 	<div class="input-group">
 		<label>Password</label>
 		<input type="Password" name="password" placeholder="Enter your password" required>
-	<div class="input-group">
-		<button type="submit" name="Login" class="btn"> Login</button>
-		<div> 
+    </div>
+		<button type="submit" name="Login" class="btn"> Login</button> 
 		<button id="clear-btn" type="reset">Clear</button>
-        </div>
 	</div>	
 	<div id="sign-up-refer">
 	<p>
