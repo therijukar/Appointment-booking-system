@@ -23,7 +23,7 @@
 		<label>Password</label>
 		<div class="password-input-container">
 		<input type="password" id="password" name="password">
-        <button type="button" id="togglePassword" class="toggle-button">Show/Hide Password</button>
+        <button type="button" id="togglePassword" class="toggle-button"></button>
     </div>
 		<button type="submit" name="Login" class="btn"> Login</button> 
 		<button id="clear-btn" type="reset">Clear</button>	
