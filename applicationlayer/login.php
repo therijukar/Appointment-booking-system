@@ -24,8 +24,7 @@
 		<input type="Password" name="password" placeholder="Enter your password" required>
     </div>
 		<button type="submit" name="Login" class="btn"> Login</button> 
-		<button id="clear-btn" type="reset">Clear</button>
-	</div>	
+		<button id="clear-btn" type="reset">Clear</button>	
 	<div id="sign-up-refer">
 	<p>
 		Not a member? <a href="1st.php">Sign Up </a>
