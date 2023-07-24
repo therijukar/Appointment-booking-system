@@ -15,6 +15,7 @@
 
 	<?php include ('../datalayer/errors.php')?>
 
+	<div class="container">
 	<div class="input-group">
 		<label>User ID</label>
 		<input type="text" name="UserID">
@@ -29,6 +30,7 @@
 	<p>
 		Not a member? <a href="1st.php">Sign Up </a>
 	</p>
+</div>
 </div>
 </form>
 
