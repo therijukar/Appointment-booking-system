@@ -25,7 +25,7 @@
 	</div>
 	<div class="input-group">
 		<label>Contact Number</label>
-		<input type="text" name="ContactNumber">
+		<input type="text" name="ContactNumber" placeholder="Enter Your Number" required>
 	</div>
 	<div class="input-group">
 		<label>Email address</label>
