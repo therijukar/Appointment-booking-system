@@ -22,7 +22,7 @@
 	<div class="input-group">
 		<label>Password</label>
 		<div class="password-input-container">
-		<input type="password" id="password" name="password">
+		<input type="password" id="password" name="password"  placeholder="Enter Your Password">
     </div>
 		<button type="submit" name="Login" class="btn"> Login</button> 
 		<button id="clear-btn" type="reset">Clear</button>	
@@ -50,6 +50,6 @@
     });
   </script>
    -->
-   
+
 </body>
 </html>
