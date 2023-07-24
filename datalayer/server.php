@@ -4,7 +4,7 @@
 session_start();
 $errors=array();
 
-$mysqli = new mysqli("localhost","fuck amit","","registration");
+$mysqli = new mysqli("localhost","hello world","","registration");
 
 if ($mysqli -> connect_errno) {
   echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
