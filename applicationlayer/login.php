@@ -32,6 +32,10 @@
 </div>
 </div>
 </form>
+<div id="logoutDiv" class="hidden">
+      <h2>Welcome, <span id="loggedInUser"></span>!</h2>
+      <button id="logoutBtn">Logout</button>
+    </div>
 
 </body>
 </html>
