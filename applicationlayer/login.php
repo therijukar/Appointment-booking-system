@@ -26,6 +26,9 @@
 	<div class="input-group">
 		<button type="submit" name="Login" class="btn"> Login</button>
 	</div>
+	<div> 
+		<button id="clear-btn" type="reset">Clear</button>
+    </div>	
 	<div id="sign-up-refer">
 	<p>
 		Not a member? <a href="1st.php">Sign Up </a>
