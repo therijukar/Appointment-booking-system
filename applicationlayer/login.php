@@ -37,6 +37,15 @@
       <h2>Welcome, <span id="loggedInUser"></span>!</h2>
       <button id="logoutBtn">Logout</button>
     </div>
-
+	<script>
+document.getElementById('togglePassword').addEventListener('click', function() {
+  const passwordInput = document.getElementById('password');
+  if (passwordInput.type === 'password') {
+    passwordInput.type = 'text';
+  } else {
+    passwordInput.type = 'password';
+  }
+});
+	</script>
 </body>
 </html>
