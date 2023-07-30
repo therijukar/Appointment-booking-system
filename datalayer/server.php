@@ -4,13 +4,19 @@
 session_start();
 $errors=array();
 
-$mysqli = new mysqli("localhost","root","","registration");
+$mysqli = new mysqli("localhost","u861265108_registration","Royal@1234","u861265108_registration");
 
 if ($mysqli -> connect_errno) {
   echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
   exit();
 }
-if (isset($_POST['Register'])) {	
+
+
+
+
+if (isset($_POST['Register'])) {
+
+	
 
 
 
@@ -21,6 +27,11 @@ if (isset($_POST['Register'])) {
 	$Email 		=  $mysqli -> real_escape_string($_POST['Email']);
 	$Password 	= $mysqli -> real_escape_string($_POST['password']);
 	$bloodtype 	= $mysqli -> real_escape_string($_POST['bloodtype']);
+    
+   
+
+
+
 
 	if (empty($UserID)) {
 	array_push($errors,"UserID is required");
@@ -59,6 +70,12 @@ if (empty($bloodtype)) {
 	# code...
 }
 
+
+
+
+
+
+
 if(count($errors)==0){
 
 
@@ -66,18 +83,31 @@ if(count($errors)==0){
 
 	$sql = "INSERT INTO  patients (UserID, Name, Address, ContactNumber, Email, Password,Bloodtype) VALUES ('$UserID','$Username','$Address','$ContactNumber','$Email','$Password','$bloodtype') ";
     
+   
+
+
 	if (!$mysqli -> query($sql)) {
   printf("%d Row inserted.\n", $mysqli->affected_rows);
+    
+ 
 }
     if(move_uploaded_file($_FILES['']))
+
+
   $_SESSION['UserID']=$UserID;
   $_SESSION['success']="you are now logged in";
   header('location:../presentaionlayer/patient/index.php');
 
+
 }
+	
+
 
 	# code...
 }
+
+
+
 
 if (isset($_POST['Login'])) {
 
@@ -94,6 +124,7 @@ if (empty($Password)) {
 		# code...
 	}
 
+
 	if (count ($errors)== 0) {
 
 		$Password=md5($Password);
@@ -103,6 +134,10 @@ if (empty($Password)) {
 	$query="SELECT * FROM patients WHERE UserID=('$UserID')AND Password=('$Password')";
 	$result=mysqli_query($mysqli,$query);
 	if (mysqli_num_rows($result) ==1 )  {
+	
+	
+
+	
 	$_SESSION['UserID']=$UserID;
   	$_SESSION['success']="you are now logged in";
   header('location:../presentaionlayer/patient/index.php');

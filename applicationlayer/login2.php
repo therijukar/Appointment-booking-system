@@ -18,13 +18,28 @@
 	<div class="input-groupD">
 		<label>Doctor ID</label>
 		<input type="text" name="doctorID">
+
 	</div>
+
+
+
+
 	<div class="input-groupD">
 		<label>Password</label>
-		<input type="Password" name="doctorpassword" placeholder="Enter your Password" required>
+		<input type="Password" name="doctorpassword">
+
+
+
 	<div class="input-groupD">
 		<button type="submit" name="Login2" class="btnD"> Login</button>
 	</div>
+
+	
+	
+
+
+
+
 </form>
 
 </body>
